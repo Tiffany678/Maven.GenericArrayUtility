@@ -1,6 +1,6 @@
 package com.zipcodewilmington.arrayutility;
 
-import com.zipcodewilmington.UnitTestingUtils;
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -15,6 +15,7 @@ public class RemoveValueTest {
         Integer[] expected = {11, 2, 8, 4, 5, 0, 9, 8};
         Integer[] inputArray = {11, 2, valueToRemove, 8, 4, 5, valueToRemove, 0, 9, 8, valueToRemove};
         ArrayUtility<Integer> arrayUtility = new ArrayUtility<Integer>(inputArray);
+
 
 
         // When

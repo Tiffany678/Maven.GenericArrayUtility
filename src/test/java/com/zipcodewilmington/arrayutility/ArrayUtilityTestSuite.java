@@ -10,10 +10,10 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 
 @Suite.SuiteClasses({
-        CountDuplicatesInMergeTest.class,
-        GetMostCommonFromMergeTest.class,
+       CountDuplicatesInMergeTest.class,
+       GetMostCommonFromMergeTest.class,
         GetNumberOfOccurrencesTest.class,
-        RemoveValueTest.class
+      RemoveValueTest.class
 })
 public class ArrayUtilityTestSuite {
 }
